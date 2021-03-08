@@ -1,0 +1,4 @@
+ImmutableMultiDict([('phrase', 'sky is blue'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36|{'u', 'i', 'e'}
+ImmutableMultiDict([('phrase', 'alicia wi'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36|{'i', 'a'}
+ImmutableMultiDict([('phrase', 'Sky is blue'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36|{'u', 'i', 'e'}
+ImmutableMultiDict([('phrase', 'sky is blue'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36|{'e', 'u', 'i'}
