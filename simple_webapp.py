@@ -13,6 +13,11 @@ def do_login() -> str:
 
 app.secret_key = 'YouWillNeverGuessMySecretKey'
 
+def check_logged_in() -> bool:
+    if 'logged_in' in session:
+        return True
+    return False
+
 @app.route('/logout')
 def do_logout() -> str:
     session.pop('logged_in')
@@ -26,6 +31,8 @@ def check_status() -> str:
 
 @app.route('/page1')
 def page1() -> str:
+    if not check_logged_in():
+        return 'You are NOT logged in.'
     return 'This is page 1.'
     
 @app.route('/page2')
